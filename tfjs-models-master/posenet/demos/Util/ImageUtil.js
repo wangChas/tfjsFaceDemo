@@ -1,3 +1,4 @@
+'use strict';
 
 function dataURLtoBlob(dataURI) {
 
@@ -19,8 +20,10 @@ function bufferToBase64(buffer) {
     return buffer.toString('base64');
 }
 
+
+
 module.exports = {
     dataURLtoBlob,
     base64toBuffer,
-    bufferToBase64
+    bufferToBase64,
 }
